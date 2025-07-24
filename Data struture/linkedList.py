@@ -36,4 +36,19 @@ if __name__ == "__main__":
 
 class DNode: 
     def __init__(self, data):
-        self
+        self.data = data #Value stored in the node
+        self.prev = None # pointer to the previous node
+        self.next= None
+
+
+#Node holds
+# - Data = value (e.g 10, aple, x)
+# - Next = pointer that points to the next Node in the list
+
+# Example 
+# [10/ Next] --> [20/next] --> [30/ next] -- None
+
+# class LinkedList:
+#     def __init__(self):
+#         self.head =  # Start of the list   
+
